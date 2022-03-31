@@ -19,7 +19,7 @@ export default function Contact() {
       <div>
 
       <Mailto email="linlidiaramirez@gmail.com" subject="Potential creation" body="Time worthy work / idea / offer:">
-    <h2 className="text-3xl">Speak to Me</h2>
+    <h2 className="text-3xl">Reach Me</h2>
 
   </Mailto>
       </div>
