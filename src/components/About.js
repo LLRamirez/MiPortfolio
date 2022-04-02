@@ -3,7 +3,7 @@ import React from "react";
 export default function About() {
     return(
         <section id="about">
-        <div className="container mx-auto flex p-4 md:flex-row flex-col items-center">
+        <div className="container mx-auto flex pt-14 p-4 md:flex-row flex-col items-center">
           <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
             
               <div class="flex font-link-bold flex-col">
@@ -18,7 +18,7 @@ export default function About() {
               <div class="text-white">
              <ul class="text-4xl font-semibold pb-3">I Engineer</ul>
              <a href="#projects" class="hover:text-white">
-                <li class="list-none text-xl font-extralight">_Software (Sites + Apps)</li>
+                <li class="list-none text-xl font-extralight">_Software (Sites +/ Apps)</li>
                 
       
                 <li class="list-none text-xl font-extralight">_Digital products (Infographics)</li>
@@ -33,7 +33,7 @@ export default function About() {
                 </a>
                 <ul class="text-4xl font-semibold pb-3 pt-6">I Travel</ul>
                 <a href="#travel" class="hover:text-white">
-                <li class="list-none text-xl font-extralight">_Wax on, Wax off of being</li> 
+                <li class="list-none text-xl font-extralight">_Wax on, Wax off of life</li> 
                 </a>
                 <a href="#photos" class="hover:text-white">
                   <li class="list-none text-xl font-extralight">_Model w <a href="https://www.statemgmt.com/new-york/lifestyle/women/all/1596959" target="_blank">StateMGMT NYC</a> </li>
