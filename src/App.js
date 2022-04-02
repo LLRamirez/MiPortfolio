@@ -10,7 +10,7 @@ import Photography from "./components/Photography";
 
 export default function App() {
   return (
-    <main class="font-link text-gray-400 bg-gray-900 body-font">
+    <main class="font-link text-gray-400 bg-gray-900 body-font overflow-hidden">
       <NavBar/>
       <About/>
       <Projects/>

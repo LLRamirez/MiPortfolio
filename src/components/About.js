@@ -29,14 +29,14 @@ export default function About() {
                 <li class="list-none text-xl font-extralight">_Digital Nomad Consultant </li>
                 </a>
                 <a href="blog" class="hover:text-pink">
-                <li class="list-none text-xl font-extralight">_Word Dribbles, Media </li> 
+                <li class="list-none text-xl font-extralight">_Blog, Media </li> 
                 </a>
                 <ul class="text-4xl font-semibold pb-3 pt-6">I Travel</ul>
                 <a href="#travel" class="hover:text-white">
                 <li class="list-none text-xl font-extralight">_Wax on, Wax off of being</li> 
                 </a>
                 <a href="#photos" class="hover:text-white">
-                  <li class="list-none text-xl font-extralight">_Model @ <a href="https://www.statemgmt.com/new-york/lifestyle/women/all/1596959" target="_blank">State MGMT NYC</a> </li>
+                  <li class="list-none text-xl font-extralight">_Model w <a href="https://www.statemgmt.com/new-york/lifestyle/women/all/1596959" target="_blank">StateMGMT NYC</a> </li>
                 </a>
                 </div>
                

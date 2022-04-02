@@ -19,7 +19,7 @@ export default function Navbar() {
             Skills
           </a> */}
           <a href="#blog" className="mr-5 text-gray-400 hover:text-white">
-            Dribbles
+          Blog
           </a>
           {/* <a href="#testimonials" className="mr-5 text-gray-400 hover:text-white">
             Art
