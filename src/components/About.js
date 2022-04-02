@@ -8,9 +8,9 @@ export default function About() {
             
               <div class="flex font-link-bold flex-col">
               <h1
-              class="font-bold text-8xl"
+              class="font-bold text-6xl md:text-8xl"
               >Lindsey</h1>
-               <h1 class="font-bold text-8xl"
+               <h1 class="font-bold text-6xl md:text-8xl"
                >Lidia</h1>
               </div>
               <br className="hidden lg:inline-block" />
