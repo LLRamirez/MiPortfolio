@@ -1,110 +1,76 @@
 import React from "react";
-import Gallery from "react-photo-gallery";
+// import Gallery from "react-photo-gallery";
+
+import Masonry, {ResponsiveMasonry} from "react-responsive-masonry"
 
 export default function Photography() {
 
+
+const images = [
+  // "https://picsum.photos/200/300?image=1050",
+  // "https://picsum.photos/300/300?image=206",
+  // "https://source.unsplash.com/pF1ug8ysTtY/600x400?image=206",
+  "./subway.jpg",
+  "./japantemple.jpg",
+  "./up.png",
+  "./mevegas.jpg",
+  "./ayafire.jpg",
+  "./treeEcua.jpg",
+  "./mecave.jpg",
+  "./sapa.jpg",
+  "./camping",
+  "./bkk.jpg",
+  "./PRbooks.jpg",
+  "./shama2.png",
+  "./shaman.jpg",
+  "./hammock.jpg",
+  "./mebeacon.jpg",
+  "./boyz2skool.jpg",
+  "./ayabed.jpg",
+  "./face1.png",
+  "./crownb.jpg",
+  "./pai.jpg",
+  "./side.png",
+  "./menmonkey.jpg",
+  "./shama.png",
+  "./songkran.jpg",
+  "./DR.png",
+  "./jcpark.jpg",
+  "./menlonshaman.jpg",
+  "./tall.jpeg",
+  "./drip.jpg",
+  "./cave.jpg",
+  "./Dadbeach.jpg",
+  "./Bar.png",
+  ".balconyDR.jpg",
+  "./smileside.png",
+  "./mencave.jpg",
+  "./mofongo.jpg",
+  "./dick.jpg",
+  "./thaisoup.jpg",
+  "./skii.jpg",
+  "./maryblk.jpg"
+
   
-
-  const photos = [
-    {
-      src: "./hammock.jpg",
-      width: 4,
-      height: 3
-    },
-    {
-      src: "./sapa.jpg",
-      width: 1,
-      height: 1
-    },
-    {
-      src: "./tall.jpeg",
-      width: 3,
-      height: 4
-    },
-    {
-      src: "./tararoof.jpg",
-      width: 3,
-      height: 4
-    },
-    {
-      src: "./pai.jpg",
-      width: 3,
-      height: 4
-    },
-    {
-      src: "./cave.jpg",
-      width: 4,
-      height: 3
-    },
-    {
-      src: "./side.png",
-      width: 3,
-      height: 4
-    },
-    {
-      src: "./up.png",
-      width: 4,
-      height: 3
-    },
-    {
-      src: "./smileside.png",
-      width: 4,
-      height: 3
-    },
-    {
-      src: "./face1.png",
-      width: 3,
-      height: 4
-    },
-    {
-      src: "./blue.png",
-      width: 4,
-      height: 3
-    },
-    {
-      src: "./Bar.png",
-      width: 4,
-      height: 3
-    },
-    {
-      src: "./barcelona.png",
-      width: 4,
-      height: 3
-    },
-    {
-      src: "https://source.unsplash.com/pF1ug8ysTtY/600x400",
-      width: 4,
-      height: 3
-    },
-    {
-      src: "https://source.unsplash.com/A-fubu9QJxE/800x533",
-      width: 4,
-      height: 3
-    },
-    {
-      src: "https://source.unsplash.com/5P91SF0zNsI/740x494",
-      width: 4,
-      height: 3
-    }
-  ];
-
-  const BasicRows = () => <Gallery
-    direction={"column"}
-   photos={photos} />;
+]
 
   return (
-    <section id="photos">
-     <div className="text-center mb-20">
-        
-          <h1 className="sm:text-4xl text-3xl font-medium title-font text-white mb-4">
-          Photography
-          </h1>
-      
-    
-    <div>
-    <BasicRows/>
-    </div>
-  </div>
-    </section>
+    <ResponsiveMasonry
+                columnsCountBreakPoints={{350: 1, 750: 2, 900: 3}}
+            >
+                <Masonry>
+                    {images.map((image, i) => (
+                        <img
+                            key={i}
+                            src={image}
+                            style={{width: "100%", display: "block"}}
+                            alt=""
+                        />
+                    ))}
+                </Masonry>
+            </ResponsiveMasonry>
   );
 }
+
+
+

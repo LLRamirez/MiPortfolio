@@ -12,9 +12,8 @@ export default function Skills() {
             Skills &amp; Technologies
           </h1>
           <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
-            Experienced in Full stack Development. Apps + sites built from the ground up. I prefer + 
-            specialize in Front-End Development, FE languages and Js frameworks. I currently master in React & React Native.
-            I also write  + work rooms / angels in 3D.
+            Experienced in Full stack Development. Apps + sites built from the ground up. Specialize in Front-End Development and JS frameworks.
+            Also write  + work rooms / angels in 3D.
           </p>
           <br/>
           <p>Scroll below.</p> 
