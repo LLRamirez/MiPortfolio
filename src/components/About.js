@@ -3,11 +3,11 @@ import React from "react";
 export default function About() {
     return(
         <section id="about">
-        <div className="container mx-auto flex pt-14 p-4 md:flex-row flex-col items-center">
+        <div className="container mx-auto flex flex-col-reverse pt-14 p-4 md:flex-row flex-col items-center">
           <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
             
               <div class="flex font-link-bold flex-col">
-              <ul class="text-4xl text-white font-semibold pb-3">Hola, I'm</ul>
+              <ul class="text-4xl text-white font-semibold pt-6 pb-3 md:pt-0">Hola, I'm</ul>
               <h1
               class="font-bold text-6xl md:text-8xl"
               >Lindsey</h1>
@@ -27,7 +27,7 @@ export default function About() {
                 </a>
                 <ul class="text-4xl font-semibold pb-3 pt-6">I Write</ul>
                 <a href="blog">
-                <li class="list-none text-xl font-extralight">_Digital Nomad Consultant </li>
+                <li class="list-none text-xl font-extralight">_Consultant </li>
                 </a>
                 <a href="blog" class="hover:text-pink">
                 <li class="list-none text-xl font-extralight">_Blog, Media </li> 
@@ -41,19 +41,6 @@ export default function About() {
                 </a>
                 </div>
                
-            
-            {/* <div className="flex justify-center">
-              <a
-                href="#contact"
-                className="inline-flex whitespace-nowrap text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg">
-                Let's discuss
-              </a>
-              <a
-                href="#projects"
-                className="ml-4 inline-flex whitespace-nowrap text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg">
-                See My Past Work
-              </a>
-            </div> */}
           </div>
           <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
             <img
