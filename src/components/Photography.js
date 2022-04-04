@@ -43,7 +43,6 @@ const images = [
   "./Bar.png",
   "./balconyDR.jpg",
   "./smileside.png",
-  "./mencave.jpg",
   "./mofongo.jpg",
   "./dick.jpg",
   "./thaisoup.jpg",
