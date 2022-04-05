@@ -29,9 +29,9 @@ export default function About() {
                 <a href="blog">
                 <li class="list-none text-xl font-extralight">_Consultant </li>
                 </a>
-                <a href="blog" class="hover:text-pink">
+                {/* <a href="blog" class="hover:text-pink">
                 <li class="list-none text-xl font-extralight">_Blog, Media </li> 
-                </a>
+                </a> */}
                 <ul class="text-4xl font-semibold pb-3 pt-6">I Travel</ul>
                 <a href="#travel" class="hover:text-white">
                 <li class="list-none text-xl font-extralight">_Wax on, Wax off</li> 

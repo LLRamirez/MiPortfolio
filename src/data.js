@@ -3,52 +3,38 @@ export const projects = [
     title: "React Reserve",
     subtitle: "MERN Stack",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+      "MERN Stack App",
     image: "./project-1.gif",
-    link: "https://reactbootcamp.com",
+    link: "https://github.com/LLRamirez",
   },
   {
     title: "React Tracks",
     subtitle: "React and Python",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+      "React tracks using python",
     image: "./project-2.gif",
-    link: "https://reactbootcamp.com",
+    link: "https://github.com/LLRamirez",
   },
   {
     title: "DevChat",
     subtitle: "React and Firebase",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+      "Chat App using firebase and React",
     image: "./project-3.gif",
-    link: "https://reactbootcamp.com",
+    link: "https://github.com/LLRamirez",
   },
   {
     title: "Epic Todo App",
     subtitle: "React Hooks",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+      "Todo app - reminders on stuff to get",
     image: "./project-4.gif",
-    link: "https://reactbootcamp.com",
+    link: "https://github.com/LLRamirez",
   },
 ];
 
-export const testimonials = [
-  {
-    quote:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quod necessitatibus quidem impedit facilis? Distinctio laboriosam veritatis recusandae minus. Voluptatum accusantium hic laudantium soluta ea sapiente cupiditate officia maiores itaque.",
-    image: "https://randomuser.me/api/portraits/men/1.jpg",
-    name: "Jesse Hicks",
-    company: "Zoozle",
-  },
-  {
-    quote:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quod necessitatibus quidem impedit facilis? Distinctio laboriosam veritatis recusandae minus. Voluptatum accusantium hic laudantium soluta ea sapiente cupiditate officia maiores itaque.",
-    image: "https://randomuser.me/api/portraits/men/94.jpg",
-    name: "Ruben Alvarez",
-    company: "Dooble.io",
-  },
-];
+export const testimonials = [""];
+
 
 export const skills = [
   "JavaScript",
