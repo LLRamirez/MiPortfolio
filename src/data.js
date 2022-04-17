@@ -1,34 +1,35 @@
 export const projects = [
+
   {
-    title: "React Reserve",
-    subtitle: "MERN Stack",
-    description:
-      "MERN Stack App",
-    image: "./project-1.gif",
-    link: "https://github.com/LLRamirez",
-  },
-  {
-    title: "React Tracks",
+    title: "Rad Power Battery Repair",
     subtitle: "React and Python",
     description:
       "React tracks using python",
-    image: "./project-2.gif",
+    image: "./rad-power.gif",
     link: "https://github.com/LLRamirez",
   },
   {
-    title: "DevChat",
+    title: "LinkTrip",
     subtitle: "React and Firebase",
     description:
-      "Chat App using firebase and React",
-    image: "./project-3.gif",
+      "Site that connects link-minded travelers",
+    image: "./LTyout.gif",
     link: "https://github.com/LLRamirez",
   },
   {
-    title: "Epic Todo App",
+    title: "Guess Numbers Game",
     subtitle: "React Hooks",
     description:
-      "Todo app - reminders on stuff to get",
-    image: "./project-4.gif",
+      "Game that makes computer guess your input",
+    image: "./guess-num.gif",
+    link: "https://github.com/LLRamirez",
+  },
+  {
+    title: "E-commerce Store",
+    subtitle: "React Hooks",
+    description:
+      "E-commerce store",
+    image: "./Canna-SouthCoast.gif",
     link: "https://github.com/LLRamirez",
   },
 ];
