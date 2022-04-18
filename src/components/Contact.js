@@ -1,6 +1,7 @@
 import React from "react";
+import { MailIcon } from "@heroicons/react/solid";
 
-import ReactDOM from "react-dom";
+import { Wave } from 'react-animated-text';
 
 const Mailto = ({ email, subject, body, ...props }) => {
   return (
@@ -14,16 +15,16 @@ export default function Contact() {
 
   return (
     <section id="contact" className="relative">
-      <div className="container px-5 py-10 mx-auto flex justify-center">
-
-      <div>
-
-      <Mailto email="linlidiaramirez@gmail.com" subject="Potential creation" body="Time worthy collab / idea / offer:">
-    <h2 className="text-3xl">Contact Me</h2>
-
-  </Mailto>
-      </div>
-      
+      <div className="container px-5 py-10 mx-auto flex justify-center h-2/3">
+        <div className="text-3xl flex flex-row">
+          <Mailto email="linlidiaramirez@gmail.com" subject="Potential creation" body="Time worthy collab / idea / offer:">
+            <Wave text="CONTACT ME" effect="stretch" effectChange={2.0} />
+            </Mailto>
+            <div className="pl-1.5">
+              <MailIcon className="mx-auto w-10 mb-4" />
+            </div>
+          
+        </div>
       </div>
     </section>
   );
