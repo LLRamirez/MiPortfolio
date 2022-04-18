@@ -13,7 +13,7 @@ export default function Skills() {
           </h1>
           <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
             Specialize in Front-End Development and + JS frameworks.
-            Also write + work rooms / angels in the flesh.
+            I also write + work rooms / angels in the flesh.
           </p>
           <br/>
           <p>Scroll below.</p> 
