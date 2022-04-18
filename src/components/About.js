@@ -23,7 +23,7 @@ export default function About() {
                 
       
                 <li class="list-none text-xl font-extralight">_UI/UX (Infographics)</li>
-                <li class="list-none text-xl font-extralight">_E-commerce + Crypto payments </li>
+                <li class="list-none text-xl font-extralight">_E-commerce</li>
                 </a>
                 <ul class="text-4xl font-semibold pb-3 pt-6">I Write</ul>
                 <a href="blog">

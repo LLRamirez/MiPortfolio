@@ -15,7 +15,6 @@ export default function App() {
       <About/>
       <Projects/>
       <Skills/>
-      {/* <Testimonials/> */}
       {/* <Blog/> */}
       <Photography/>
       <Contact/>

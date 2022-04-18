@@ -20,7 +20,7 @@ export const projects = [
     subtitle: "React and Python",
     description:
       "React tracks using python",
-    image: "./rad-power.gif",
+    image: "./rad-bat.gif",
     link: "https://github.com/LLRamirez",
   },
   {
@@ -29,7 +29,7 @@ export const projects = [
     description:
       "Site that connects link-minded travelers",
     image: "./LTyout.gif",
-    link: "https://github.com/LLRamirez",
+    link: "https://www.youtube.com/watch?v=utslUVY8UK8&ab_channel=LindseyR",
   },
   {
     title: "TATU",
