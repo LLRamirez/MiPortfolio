@@ -12,7 +12,7 @@ export default function Projects() {
             Apps I've Built
           </h1>
           <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-          Front End Development. React + Native; For more coded projects check out my <a href="https://github.com/LLRamirez" target="_blank">Github.</a> (repos not shown are private = NDA or <a href="https://github.com/Linrmz007" target="_blank">here</a> )
+          Front End Development. React + Native; For more coded projects check out my <a href="https://github.com/LLRamirez" target="_blank"><u>Github.</u></a> (repos not shown are private = NDA or <a href="https://github.com/Linrmz007" target="_blank"><u>here</u></a> )
           </p>
         </div>
         <div className="flex flex-wrap -m-4">
