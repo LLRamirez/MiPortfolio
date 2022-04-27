@@ -1,9 +1,9 @@
 export const projects = [
   {
-    title: "OMNY",
+    title: "OMNY - Contactless Card",
     subtitle: "React Js",
     description:
-      "React & GraphQl",
+      "MTA - NYC",
     image: "./OMNY.gif",
     link: "https://omny.info/",
   },
@@ -11,7 +11,7 @@ export const projects = [
     title: "Poster House Mueseum",
     subtitle: "React Js",
     description:
-      "React & GraphQl",
+      "NYC Mueseum",
     image: "./PH.gif",
     link: "https://posterhouse.org/",
   },
@@ -19,23 +19,23 @@ export const projects = [
     title: "Rad Power Battery Repair",
     subtitle: "React and Python",
     description:
-      "React tracks using python",
+      "E-bike Battery US | DR",
     image: "./rad-bat.gif",
     link: "https://github.com/LLRamirez",
   },
   {
     title: "LinkTrip",
-    subtitle: "React and Firebase",
+    subtitle: "React, Firebase, Infographics",
     description:
-      "Site that connects link-minded travelers",
+      "Matches link-minded travelers",
     image: "./LTyout.gif",
     link: "https://www.youtube.com/watch?v=utslUVY8UK8&ab_channel=LindseyR",
   },
   {
     title: "TATU",
-    subtitle: "React Js",
+    subtitle: "React & GraphQl",
     description:
-      "React & GraphQl",
+    "Tattoo Artist look up",
     image: "./Tatu.gif",
     link: "https://github.com/LLRamirez",
   },
@@ -56,7 +56,7 @@ export const projects = [
     link: "https://github.com/LLRamirez",
   },
   {
-    title: "Furniture online store",
+    title: "Furniture E-store",
     subtitle: "React Native",
     description:
       "E-commerce store",
