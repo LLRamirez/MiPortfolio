@@ -39,14 +39,14 @@ export const projects = [
     image: "./Tatu.gif",
     link: "https://github.com/LLRamirez",
   },
-  {
-    title: "Guess Numbers Game",
-    subtitle: "React Hooks",
-    description:
-      "Game that makes computer guess your input",
-    image: "./guess-num.gif",
-    link: "https://github.com/LLRamirez",
-  },
+  // {
+  //   title: "Guess Numbers Game",
+  //   subtitle: "React Hooks",
+  //   description:
+  //     "Game that makes computer guess your input",
+  //   image: "./guess-num.gif",
+  //   link: "https://github.com/LLRamirez",
+  // },
   {
     title: "E-commerce Store",
     subtitle: "React Hooks",
@@ -56,11 +56,19 @@ export const projects = [
     link: "https://github.com/LLRamirez",
   },
   {
-    title: "E-commerce Store",
-    subtitle: "React Hooks",
+    title: "Furniture online store",
+    subtitle: "React Native",
     description:
       "E-commerce store",
     image: "./project-1.gif",
+    link: "https://github.com/LLRamirez",
+  },
+  {
+    title: "SouthCoast RI & MA dispensary",
+    subtitle: "React Native",
+    description:
+      "E-commerce store",
+    image: "./southCoast.gif",
     link: "https://github.com/LLRamirez",
   },
 ];
