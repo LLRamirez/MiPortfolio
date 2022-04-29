@@ -51,7 +51,7 @@ export const projects = [
     title: "E-commerce Store",
     subtitle: "React Hooks",
     description:
-      "E-commerce store",
+      "Accessories E-commerce store",
     image: "./Canna-SouthCoast.gif",
     link: "https://github.com/LLRamirez",
   },
@@ -64,10 +64,10 @@ export const projects = [
     link: "https://github.com/LLRamirez",
   },
   {
-    title: "SouthCoast RI & MA dispensary",
+    title: "SouthCoast Dispensary",
     subtitle: "React Native",
     description:
-      "E-commerce store",
+      "Fall River, MA",
     image: "./southCoast.gif",
     link: "https://github.com/LLRamirez",
   },
@@ -81,6 +81,6 @@ export const skills = [
   "React + Native",
   "GraphQL",
   "Content Writer",
-  "Teacher + Student",
+  "Teacher",
   "Fashion Model"
 ];
