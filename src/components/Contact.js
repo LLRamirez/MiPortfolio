@@ -18,7 +18,7 @@ export default function Contact() {
       <div className="container px-5 py-10 mx-auto flex flex-col justify-center h-2/3">
         <div className="text-3xl flex flex-row justify-center underline underline-offset-2">
           
-          <Mailto email="linlidiaramirez@gmail.com" subject="Potential creation" body="Time worthy collab / idea / offer:">
+          <Mailto email="linlidiaramirez@gmail.com" subject="Potential collab" body="">
             <Wave text="CONTACT ME" effect="stretch" effectChange={2.0} />
             </Mailto>
             <div className="pl-1.5">
