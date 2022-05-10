@@ -47,7 +47,7 @@ const images = [
 ]
 
   return (
-    <div id="travel">
+    <div id="travel" className="mt-12">
     <ResponsiveMasonry
                 columnsCountBreakPoints={{350: 1, 750: 2, 900: 3}}
             >
