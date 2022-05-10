@@ -27,10 +27,10 @@ export default function Contact() {
           
         </div>
         <div className="w-full">
-<div className="flex flex-row justify-between">
+<div className="flex flex-row justify-between text-xs">
         <p>© All rights reserved</p>
 
-        <a href="#about" class="hover:text-white">
+        <a href="#about" class="hover:text-white text-sm">
         <p>Back ^ top</p>
         </a>
         </div>
