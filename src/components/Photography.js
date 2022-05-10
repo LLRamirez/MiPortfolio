@@ -1,10 +1,8 @@
 import React from "react";
-// import Gallery from "react-photo-gallery";
 
-import Masonry, {ResponsiveMasonry} from "react-responsive-masonry"
+import Masonry, { ResponsiveMasonry } from "react-responsive-masonry"
 
 export default function Photography() {
-
 
 const images = [
   "./subway.jpg",
@@ -49,6 +47,7 @@ const images = [
 ]
 
   return (
+    <div id="travel">
     <ResponsiveMasonry
                 columnsCountBreakPoints={{350: 1, 750: 2, 900: 3}}
             >
@@ -63,6 +62,7 @@ const images = [
                     ))}
                 </Masonry>
             </ResponsiveMasonry>
+            </div>
   );
 }
 

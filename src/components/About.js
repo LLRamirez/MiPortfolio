@@ -26,7 +26,7 @@ export default function About() {
                 <li class="list-none text-xl font-extralight">_E-commerce</li>
                 </a>
                 <ul class="text-4xl font-semibold pb-3 pt-6">I Write</ul>
-                <a href="blog">
+                <a href="https://www.cweonline.org/">
                 <li class="list-none text-xl font-extralight">_Consultant </li>
                 </a>
                 {/* <a href="blog" class="hover:text-pink">
@@ -36,7 +36,7 @@ export default function About() {
                 <a href="#travel" class="hover:text-white">
                 <li class="list-none text-xl font-extralight">_Wax on, Wax off</li> 
                 </a>
-                <a href="#photos" class="hover:text-white">
+                <a href="#travel" class="hover:text-white">
                   <li class="list-none text-xl font-extralight">_Model</li>
                 </a>
                 </div>

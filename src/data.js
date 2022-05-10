@@ -78,9 +78,18 @@ export const testimonials = [""];
 
 export const skills = [
   "JavaScript",
-  "React + Native",
+  "React, Redux, React Hooks",
   "GraphQL",
+  "NodeJS",
+  "Git",
+  "CSS, SASS, SCSS"
+];
+
+export const nonTechskills = [
   "Content Writer",
-  "Teacher",
+  "Program Management",
+  "Collaboration",
+  "Consultant for Grants & Business Certifications",
+  "Troubleshooting & Customer Service",
   "Fashion Model"
 ];
