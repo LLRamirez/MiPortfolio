@@ -7,15 +7,13 @@ export default function Photography() {
 
 
 const images = [
-  // "https://picsum.photos/200/300?image=1050",
-  // "https://picsum.photos/300/300?image=206",
-  // "https://source.unsplash.com/pF1ug8ysTtY/600x400?image=206",
   "./subway.jpg",
   "./japantemple.jpg",
   "./up.png",
   "./mevegas.jpg",
   "./ayafire.jpg",
   "./treeEcua.jpg",
+  "./bald.jpg",
   "./mecave.jpg",
   "./sapa.jpg",
   "./camping.jpg",
@@ -38,7 +36,6 @@ const images = [
   "./DR.png",
   "./jcpark.jpg",
   "./menlonshaman.jpg",
-  // "./tall.jpeg",
   "./cave.jpg",
   "./Dadbeach.jpg",
   "./Bar.png",
@@ -48,9 +45,7 @@ const images = [
   "./boatbkk.jpg",
   "./thaisoup.jpg",
   "./skii.jpg",
-  "./maryblk.jpg"
-
-  
+  "./maryblk.jpg",
 ]
 
   return (

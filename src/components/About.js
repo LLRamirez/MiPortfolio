@@ -37,7 +37,7 @@ export default function About() {
                 <li class="list-none text-xl font-extralight">_Wax on, Wax off</li> 
                 </a>
                 <a href="#photos" class="hover:text-white">
-                  <li class="list-none text-xl font-extralight">_Model w <a href="https://www.statemgmt.com/new-york/lifestyle/women/all/1596959" target="_blank"><u>StateMGMT</u></a> </li>
+                  <li class="list-none text-xl font-extralight">_Model</li>
                 </a>
                 </div>
                
