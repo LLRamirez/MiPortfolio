@@ -23,3 +23,15 @@
   .font-link-bold {
     font-family: 'Source Code Pro', monospace;
   }
+
+  .blinking {
+    animation:blinkingText 1.2s infinite;
+  }
+  
+  @keyframes blinkingText{
+     0%{     color: #b8ec5c;    }
+      49%{    color: #b8ec5c; }
+      60%{    color: transparent; }
+      99%{    color:transparent;  }
+      100%{   color:#b8ec5c;    }
+  }
