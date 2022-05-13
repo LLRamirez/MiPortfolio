@@ -35,3 +35,7 @@
       99%{    color:transparent;  }
       100%{   color:#b8ec5c;    }
   }
+
+  .shadow {
+    text-shadow: 2px 2px 2px #b8ec5c;
+  }
