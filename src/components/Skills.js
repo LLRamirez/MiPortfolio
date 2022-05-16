@@ -13,13 +13,13 @@ export default function Skills() {
           </h1>
           <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
             Specialization in Front-End Development + JS frameworks.
-            I also write + work rooms / angels in the flesh.
+            I also write + work rooms in the flesh.
           </p>
           <br/>
           <p>Scroll below.</p> 
         </div>
         <div>
-          <p className="sm:text-3xl text-2xl font-medium text-white text-center mb-4"><u>Technical Skills</u></p>
+          <p className="sm:text-3xl text-2xl font-medium text-white text-center mb-4">Technical Skills</p>
         </div>
         <div className="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
           {skills.map((skill) => (
@@ -34,7 +34,7 @@ export default function Skills() {
           ))}
         </div>
         <div>
-          <p className="sm:text-3xl text-2xl font-medium text-white text-center mb-4 pt-8"><u>Non-Technical Skills</u></p>
+          <p className="sm:text-3xl text-2xl font-medium text-white text-center mb-4 pt-8">Non-Technical Skills</p>
         </div>
         <div className="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
           {nonTechskills.map((nonTech) => (
