@@ -6,6 +6,7 @@ import Skills from './components/Skills';
 import Contact from './components/Contact';
 import Blog from './components/Blog';
 import Photography from "./components/Photography";
+import Gallery from "./components/Gallery";
 
 export default function App() {
   return (
@@ -15,6 +16,7 @@ export default function App() {
       <Projects/>
       <Skills/>
       {/* <Blog/> */}
+      {/* <Gallery/> */}
       <Photography/>
       <Contact/>
     </main>
