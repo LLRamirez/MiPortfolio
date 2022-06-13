@@ -89,7 +89,7 @@ export const nonTechskills = [
   "Content Writer",
   "Program Management",
   "Collaboration",
-  "Consultant for Grants & Business Certifications",
-  "Troubleshooting & Customer Service",
+  "Tech Consultant",
+  "Troubleshooting & Conflict Resoultion",
   "Fashion Model"
 ];
