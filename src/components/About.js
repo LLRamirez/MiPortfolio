@@ -19,17 +19,19 @@ export default function About() {
               <div class="text-white pt-12">
              <ul class="text-4xl font-semibold pb-3">I Engineer</ul>
              <a href="#projects" class="hover:text-white">
-                <li class="list-none text-xl font-extralight"><span class="blinking">_</span>Code (Sites +/ Apps)</li>
+                <li class="list-none text-xl font-extralight"><span class="blinking">_</span>Code (web/mobile)
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 inline pb-1 pt-1 yahGreen" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
+</svg>
+                 </li>
                 <li class="list-none text-xl font-extralight"><span class="blinking">_</span>UI/UX (Infographics)</li>
                 <li class="list-none text-xl font-extralight"><span class="blinking">_</span>E-commerce</li>
                 </a>
                 <ul class="text-4xl font-semibold pb-3 pt-6">I Write</ul>
                 <a href="https://www.cweonline.org/About-CWE/CWE-Staff/Staff-Detail/dirID/1069/a/Staff" target='_blank'>
                 <li class="list-none text-xl font-extralight"><span class="blinking">_</span>Consultant 
-                <svg xmlns="http://www.w3.org/2000/svg" 
-                class="h-6 w-6 px-1 py-1.5 inline yahGreen" 
-                fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-  <path stroke-linecap="round" stroke-linejoin="round" d="M13 5l7 7-7 7M5 5l7 7-7 7" />
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 inline pb-1 pt-1 yahGreen" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
 </svg>
       
 </li>
@@ -39,7 +41,11 @@ export default function About() {
                 </a> */}
                 <ul class="text-4xl font-semibold pb-3 pt-6">I Travel</ul>
                 <a href="#travel" class="hover:text-white">
-                <li class="list-none text-xl font-extralight"><span class="blinking">_</span>Wax on, Wax off</li> 
+                <li class="list-none text-xl font-extralight"><span class="blinking">_</span>Wax on | Wax off
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 inline pb-1 pt-1 yahGreen" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
+</svg>
+                </li> 
                 </a>
                 <a href="#travel" class="hover:text-white">
                   <li class="list-none text-xl font-extralight"><span class="blinking">_</span>Model</li>
