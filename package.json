@@ -5,6 +5,7 @@
   "dependencies": {
     "@craco/craco": "^5.9.0",
     "@heroicons/react": "^1.0.5",
+    "bootstrap": "^5.2.1",
     "faker": "^6.6.6",
     "heroicons": "^1.0.5",
     "react": "^17.0.2",
@@ -29,6 +30,7 @@
     ]
   },
   "devDependencies": {
+    "@expo/webpack-config": "^0.17.2",
     "@faker-js/faker": "^7.1.0",
     "autoprefixer": "^9.8.6",
     "postcss": "^7.0.36",

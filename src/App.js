@@ -7,6 +7,7 @@ import Contact from './components/Contact';
 import Blog from './components/Blog';
 import Photography from "./components/Photography";
 import Gallery from "./components/Gallery";
+import Toggle from './components/Toggle';
 
 export default function App() {
   return (
@@ -17,6 +18,7 @@ export default function App() {
       <Skills/>
       {/* <Blog/> */}
       {/* <Gallery/> */}
+      <Toggle/>
       <Photography/>
       <Contact/>
     </main>
