@@ -1,6 +1,7 @@
 import React from "react";
 
 export default function About() {
+
     return(
         <section id="about">
         <div className="container mx-auto flex flex-col-reverse pt-14 p-4 md:flex-row flex-col items-center">
@@ -18,18 +19,17 @@ export default function About() {
               
               <div class="text-white pt-12">
              <ul class="text-4xl font-semibold pb-3">I Engineer</ul>
-             <a href="#projects" class="hover:text-white">
-                <li class="list-none text-xl font-extralight"><span class="blinking">_</span>Code (web/mobile)
+             <a href="#projects" class="hover:text-white text-decoration:none">
+                <li class="list-none text-xl font-extralight text-white"><span class="blinking">_</span>Code (web/mobile)
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 inline pb-1 pt-1 yahGreen" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
   <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
 </svg>
                  </li>
-                <li class="list-none text-xl font-extralight"><span class="blinking">_</span>UI/UX (Infographics)</li>
-                <li class="list-none text-xl font-extralight"><span class="blinking">_</span>E-commerce</li>
+                <li class="list-none text-xl font-extralight text-white"><span class="blinking">_</span>UI/UX (Infographics)</li>
                 </a>
                 <ul class="text-4xl font-semibold pb-3 pt-6">I Write</ul>
                 <a href="https://www.cweonline.org/About-CWE/CWE-Staff/Staff-Detail/dirID/1069/a/Staff" target='_blank'>
-                <li class="list-none text-xl font-extralight"><span class="blinking">_</span>Program Manager 
+                <li class="list-none text-xl font-extralight text-white"><span class="blinking">_</span>PM 
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 inline pb-1 pt-1 yahGreen" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
   <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
 </svg>
@@ -41,16 +41,18 @@ export default function About() {
                 </a> */}
                 <ul class="text-4xl font-semibold pb-3 pt-6">I Travel</ul>
                 <a href="#travel" class="hover:text-white">
-                <li class="list-none text-xl font-extralight"><span class="blinking">_</span>Wax on | Wax off
+                <li class="list-none text-xl font-extralight text-white"><span class="blinking">_</span>Wax on | Wax off
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 inline pb-1 pt-1 yahGreen" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
   <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
 </svg>
                 </li> 
                 </a>
                 <a href="#travel" class="hover:text-white">
-                  <li class="list-none text-xl font-extralight"><span class="blinking">_</span>Model</li>
+                  <li class="list-none text-xl font-extralight text-white"><span class="blinking">_</span>Model</li>
                 </a>
                 </div>
+
+                
                
           </div>
           <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">

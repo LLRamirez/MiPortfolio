@@ -43,3 +43,7 @@
   .yahGreen {
     color: #b8ec5c;
   }
+
+  a{
+    text-decoration: none !important
+  }

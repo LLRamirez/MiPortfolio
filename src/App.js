@@ -8,6 +8,8 @@ import Blog from './components/Blog';
 import Photography from "./components/Photography";
 import Gallery from "./components/Gallery";
 import Toggle from './components/Toggle';
+import WaxOn from "./components/WaxOn";
+import WaxOnC from "./components/WaxOnC";
 
 export default function App() {
   return (
@@ -18,7 +20,9 @@ export default function App() {
       <Skills/>
       {/* <Blog/> */}
       {/* <Gallery/> */}
-      <Toggle/>
+      {/* <Toggle/> */}
+      {/* <WaxOn/>
+      <WaxOnC/> */}
       <Photography/>
       <Contact/>
     </main>
