@@ -48,7 +48,7 @@ export default function About() {
                 </li> 
                 </a>
                 <a href="#travel" class="hover:text-white">
-                  <li class="list-none text-xl font-extralight text-white"><span class="blinking">_</span>Model</li>
+                  <li class="list-none text-xl font-extralight text-white"><span class="blinking">_</span>Modelo</li>
                 </a>
                 </div>
 

@@ -86,8 +86,8 @@ export const skills = [
 ];
 
 export const nonTechskills = [
-  "Content Writer",
+  "Writer",
   "Program Management",
-  "Closed Street Events",
+  "Community Events",
   "Travel Consultant",
 ];
