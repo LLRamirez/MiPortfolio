@@ -5,7 +5,7 @@
   "dependencies": {
     "@craco/craco": "^5.9.0",
     "@heroicons/react": "^1.0.5",
-    "bootstrap": "^5.2.1",
+    "bootstrap": "^5.2.2",
     "faker": "^6.6.6",
     "heroicons": "^1.0.5",
     "react": "^17.0.2",

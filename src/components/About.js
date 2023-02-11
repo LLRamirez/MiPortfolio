@@ -27,9 +27,9 @@ export default function About() {
                  </li>
                 <li class="list-none text-xl font-extralight text-white"><span class="blinking">_</span>UI/UX (Infographics)</li>
                 </a>
-                <ul class="text-4xl font-semibold pb-3 pt-6">I Write</ul>
+                <ul class="text-4xl font-semibold pb-3 pt-6">I Advocate</ul>
                 <a href="https://www.cweonline.org/About-CWE/CWE-Staff/Staff-Detail/dirID/1069/a/Staff" target='_blank'>
-                <li class="list-none text-xl font-extralight text-white"><span class="blinking">_</span>PM 
+                <li class="list-none text-xl font-extralight text-white"><span class="blinking">_</span>CWE 
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 inline pb-1 pt-1 yahGreen" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
   <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
 </svg>
