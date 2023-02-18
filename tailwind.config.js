@@ -4,6 +4,9 @@ module.exports = {
   theme: {
     extend: {},
   },
+  content: [
+    './src/**/*.{js,ts,jsx,tsx}'
+  ],
   variants: {
     extend: {},
   },
